@@ -4,7 +4,7 @@ var miniExpress = require('express');  // USING EXPRESS INSTEAD OF MINIEXPRESS
 
 
 var app = miniExpress();
-var port = 3000;
+var port = process.env.PORT || 3000;
 console.log('Server init.');
 
 var STATUS_SUCCESS = 0;

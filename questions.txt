@@ -1,0 +1,12 @@
+1. can your app suffer from XSS? if yes - how can you fix it? if not - why not?
+it doesn't seem to suffer from XSS. the reason is that I don't use unsanitized input
+and reflect it to the output. The only reflected input is in the list itself,
+and Angular's bind seem to escape problematic characters.
+
+
+2. can your app suffer from CSRF? if yes - how can you fix it? if not - why not?
+yes, it can. as long as the cookie hasn't expired, an attacker can forge a request
+and use the existing cookie in the victim's browser.
+A way to fix it can be using tokens, i.e. a secret value sent to the user for identification,
+but not saved as a cookie, so an outsider can't know it's value.
+

@@ -1,0 +1,4 @@
+hard/easy parts - this exercise is actually pretty straightforward.
+
+course comments - pretty great, very insightful to commonly used technologies,
+however the exercises (esp. ex4) take a lot of time, and well worth the 4 NZ.

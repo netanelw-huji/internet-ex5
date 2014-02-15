@@ -1,0 +1,35 @@
+<header>
+	<h1>todos</h1>
+</header>
+
+<section>
+    <h3> Login: </h3>
+    <form id="login-form" ng-submit="login(loginUsername, loginPassword)">
+        <label for="login-username"> Username: </label>
+        <input id="login-username" class="formInput" placeholder="username" ng-model="loginUsername" autofocus />
+        <br />
+        <label for="login-password"> Password: </label>
+        <input id="login-password" class="formInput" type="password" placeholder="password" ng-model="loginPassword" />
+        <br />
+        <input type="submit" value="login" />
+    </form>
+    <p id="loginMsg" style="display: none; color:red; font-size:9pt"></p>
+</section>
+<br />
+<section>
+    <h3> Register: </h3>
+    <form id="register-form" ng-submit="register(registerUsername, registerPassword, registerFullname)">
+        <label for="register-username"> Username: </label>
+        <input id="register-username" class="formInput" placeholder="username" ng-model="registerUsername" />
+        <br />
+        <label for="register-password"> Password: </label>
+        <input id="register-password" class="formInput" type="password" placeholder="password" ng-model="registerPassword" />
+        <br />
+        <label for="register-fullname"> Full Name: </label>
+        <input id="register-fullname" class="formInput" placeholder="fullname" ng-model="registerFullname" />
+        <br />
+        <input type="submit" value="register" />
+    </form>
+    <p id="registerMsg" style="display: none; color:red; font-size:9pt"></p>
+</section>
+

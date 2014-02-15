@@ -1,0 +1,86 @@
+html,
+body {
+	margin: 100;
+	padding: 0;
+}
+
+
+body {
+	font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	line-height: 1.4em;
+	background: #ACD1E9;
+	color: #4d4d4d;
+	width: 550px;
+	margin: 0 auto;
+}
+
+.todoInputForm {
+	display: inline;
+}
+
+
+#new-todo {
+	width: 100%;
+	font-size: 20pt;
+	padding: 10px;
+	color: #0C2C52;
+}
+
+.edit {
+	width: 90%;
+	background-color: #F8F2DA;
+	color: #0C2C52;
+}
+
+#todo-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#todo-list li {
+	width: 100%;
+}
+
+#filters {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	right: 0;
+	left: 0;
+}
+
+#filters li {
+	display: inline;
+}
+
+#filters li a {
+	color: #6D929B;
+	margin: 2px;
+	text-decoration: none;
+}
+
+h1 {
+	width: 100%;
+	font-size: 70px;
+	font-weight: bold;
+	text-align: center;
+	color: #87AAAE;
+	color: rgba(255, 255, 255, 0.2);
+	text-shadow: -1px -1px rgba(0, 0, 0, 0.2);
+}
+
+#login-form label {
+	float: left;
+	width: 15%;
+}
+
+#register-form label {
+	float: left;
+	width: 15%;
+}
+
+.formInput {
+	background-color: #F8F2DA;
+	color: #0C2C52;
+}

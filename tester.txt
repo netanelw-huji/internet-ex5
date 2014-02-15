@@ -1,0 +1,26 @@
+
+
+--------
+ TESTS:
+--------
+
+1. 	Checking sessionless GET request to /item returns error 400.
+2. 	Checking sessionless POST request to /item returns error 400.
+3. 	Checking sessionless PUT request to /item returns error 400.
+4. 	Checking sessionless DELETE request to /item returns error 400.
+5.	Checking GET request to /item with fake (non-existing) session-id returns error 400.
+6.	Checking POST request to /item with fake (non-existing) session-id returns error 400.
+7.	Checking PUT request to /item with fake (non-existing) session-id returns error 400.
+8.	Checking DELETE request to /item with fake (non-existing) session-id returns error 400.
+9. 	Checking registering a new username returns a 200 response.
+10.	Checking registering an existing username returns error 500.
+11.	Checking Logging-in with non-existing username returns error 500.
+12.	Checking Logging-in with wrong password returns error 500.
+13.	Checking Logging-in with right password returns 200 response and a session ID cookie.
+14. Checking an existing session's GET request to /item returns response 200.
+15. Checking an existing session's POST request to /item returns response 500 with status: 0 (success).
+16. Checking an existing session's PUT request to /item returns response 500 with status: 0 (success).
+17. Checking an existing session's DELETE request to /item returns response 500 with status: 0 (success).
+18. Checking that a POST request to /item with an existing item id returns response 500 with status: 1 (failure).
+19. Checking that a PUT request to /item with a non-existing item id returns response 500 with status: 1 (failure).
+20. Checking that a DELETE request to /item with a non-existing item id returns response 500 with status: 1 (failure).

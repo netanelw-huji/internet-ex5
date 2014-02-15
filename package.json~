@@ -1,0 +1,22 @@
+{
+  "name": "ex5",
+  "version": "0.0.0",
+  "description": "ex5 todo-app",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/netanelw-huji/internet-ex5.git"
+  },
+  "author": "netanel winiwarter",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/netanelw-huji/internet-ex5/issues"
+  },
+  "dependencies": {
+    "express": "~3.4.8"
+  }
+  
+}

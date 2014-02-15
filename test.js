@@ -4,7 +4,7 @@ var http = require('http');
 var main = require('./main');
 
 var HOST = 'localhost';
-var PORT = 3000;
+var PORT = process.env.PORT || 3000;
 
 
 var SESSION_ID = null; // updated in login test.
